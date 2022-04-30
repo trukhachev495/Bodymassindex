@@ -1,13 +1,11 @@
 public class BmiService {
 
- public double calculate(double m, double h2) {
+    public double calculate(double bodyMass, double mansHeight) {
 
-  double i2 = m / h2;
-  return i2;
+        double bodyMassIndex = bodyMass / mansHeight;
+        return bodyMassIndex;
 
- }
-
-
+    }
 
 
 }
